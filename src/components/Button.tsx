@@ -5,11 +5,7 @@ interface IProps {
 }
 
 function Button({ children }: IProps) {
-  return (
-    <button type="button" style={{ background: "blue" }}>
-      {children}
-    </button>
-  );
+  return <button type="button">{children}</button>;
 }
 
 export default Button;

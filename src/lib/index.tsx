@@ -1,4 +1,5 @@
 import React from "react";
+import "../global.css";
 import { Container, createRoot } from "react-dom/client";
 import App from "./App";
 
