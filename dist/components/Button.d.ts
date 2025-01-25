@@ -1,5 +1,5 @@
 import React from "react";
-interface IProps {
+export interface IProps {
     children: React.ReactNode;
 }
 declare function Button({ children }: IProps): import("react/jsx-runtime").JSX.Element;

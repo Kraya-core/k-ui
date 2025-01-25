@@ -4,5 +4,4 @@ export interface ITextTruncateProps {
     text: string;
     limit?: number;
 }
-declare function TextTruncate({ className, align, text, limit, }: ITextTruncateProps): import("react/jsx-runtime").JSX.Element;
-export default TextTruncate;
+export default function TextTruncate({ className, align, text, limit, }: ITextTruncateProps): import("react/jsx-runtime").JSX.Element;

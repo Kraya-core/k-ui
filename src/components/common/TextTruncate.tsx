@@ -13,7 +13,7 @@ export interface ITextTruncateProps {
   limit?: number;
 }
 
-function TextTruncate({
+export default function TextTruncate({
   className = "",
   align = "left",
   text = "",
@@ -32,5 +32,3 @@ function TextTruncate({
     <span className={className}>{text}</span>
   );
 }
-
-export default TextTruncate;
