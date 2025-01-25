@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
 // Instantiate the plugin.
 // The `template` property defines the source
@@ -13,7 +14,7 @@ module.exports = {
   // Our application entry point.
   entry: "./src/lib/index.tsx",
 
-  mode: "production",
+  mode: "development",
 
   // These rules define how to deal
   // with files with given extensions.
@@ -40,6 +41,11 @@ module.exports = {
   // we are interested in.
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
+    plugins: [
+      new TsconfigPathsPlugin({
+        configFile: "./tsconfig.json",
+      }),
+    ],
   },
 
   // What file name should be used for the result file,

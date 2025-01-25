@@ -1,2 +1,2 @@
-export * from "./components";
-export * from "./utils";
+export * from "@/components/index";
+export * from "@/lib/utils";
