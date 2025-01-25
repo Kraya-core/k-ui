@@ -1,11 +1,11 @@
 {
   "name": "@kraya/kraya-ui",
   "version": "1.1.6",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist/**/*"
+    "./dist/**/*"
   ],
   "scripts": {
     "build": "rollup -c",
