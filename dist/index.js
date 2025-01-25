@@ -17,5 +17,5 @@ declare function TextTruncate({ className, align, text, limit, }: ITextTruncateP
 
 declare function cn(...inputs: ClassValue[]): string;
 
-export { Button, TextTruncate, cn };
+export { Button, TextTruncate, TextTruncate as TextTruncate2, cn };
 //# sourceMappingURL=index.js.map
