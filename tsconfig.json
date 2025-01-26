@@ -11,11 +11,12 @@
     "strict": true,
     "moduleResolution": "Node",
     "declaration": true,
-    "declarationDir": "dist",
+    "declarationDir": "dist/types",
     "outDir": "./dist",
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "emitDeclarationOnly": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
