@@ -1,6 +1,6 @@
 {
   "name": "@kraya/kraya-ui",
-  "version": "4.0.12",
+  "version": "4.0.13",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/types/index.d.ts",
