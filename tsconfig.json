@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@kui/*": ["src/*"]
+      "@/*": ["src/*"]
     },
     "target": "ES6",
     "module": "ES6",

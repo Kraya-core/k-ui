@@ -1,13 +1,13 @@
 import React from "react";
-import Button from "@kui/components/Button";
+import Button from "@/components/Button";
 import { toLoweercase } from "../utils/toLowercase";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@kui/components/ui/accordion";
-import TextTruncate from "@kui/components/common/TextTruncate";
+} from "@/components/ui/accordion";
+import TextTruncate from "@/components/common/TextTruncate";
 
 function App() {
   return (
