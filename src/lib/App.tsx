@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "@/components/Button";
 import { toLoweercase } from "../utils/toLowercase";
 import {
   Accordion,
@@ -13,7 +12,6 @@ function App() {
   return (
     <div className="p-5">
       <h1 className="p-5 text-[7rem] bg-light-bg">Hello 2</h1>
-      <Button>Heyy</Button>
       <p className="text-red-200">{toLoweercase("HHELLO")}</p>
       <TextTruncate
         text={
