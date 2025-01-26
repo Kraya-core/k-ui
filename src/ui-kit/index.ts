@@ -1,2 +1,2 @@
-export * from "@/ui-kit/buttons/AsyncButton";
-export * from "@/ui-kit/loader/Loader";
+export { default as AsyncButton } from "@/ui-kit/buttons/AsyncButton";
+export { default as Loader } from "@/ui-kit/loader/Loader";
