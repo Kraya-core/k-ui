@@ -65,5 +65,5 @@
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
     "tsconfig-paths-webpack-plugin": "^4.2.0"
-  },
+  }
 }
