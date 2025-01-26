@@ -5,13 +5,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-
-export interface ITextTruncateProps {
-  className?: string;
-  align?: string;
-  text: string;
-  limit?: number;
-}
+import { ITextTruncateProps } from "@/typings/textTruncate.typings";
 
 export default function TextTruncate({
   className = "",

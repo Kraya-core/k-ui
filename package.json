@@ -1,14 +1,14 @@
 {
   "name": "@kraya/kraya-ui",
-  "version": "1.1.18",
+  "version": "4.0.7",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/types/index.d.ts",
   "files": [
     "./dist/**/*"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c && tsc-alias",
     "prepare": "npm run build",
     "dev": "webpack serve"
   },
@@ -20,6 +20,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.1",
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-typescript": "^12.1.2",
@@ -33,6 +34,7 @@
     "ts-loader": "^9.5.2",
     "ts-node": "^10.9.2",
     "tsc-watch": "^6.2.1",
+    "tsconfig-paths-webpack-plugin": "^4.2.0",
     "tslib": "^2.8.1",
     "typescript": "^5.7.3",
     "webpack": "^5.97.1",
@@ -57,16 +59,11 @@
     "css-loader": "^7.1.2",
     "lucide-react": "^0.474.0",
     "mini-svg-data-uri": "^1.4.4",
-    "module-alias": "^2.2.3",
     "postcss": "^8.5.1",
     "postcss-loader": "^8.1.1",
-    "rollup-plugin-dts": "^6.1.1",
     "style-loader": "^4.0.0",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
-    "tsconfig-paths-webpack-plugin": "^4.2.0"
-  },
-  "_moduleAliases": {
-    "@/": "dist/src"
+    "tsc-alias": "^1.8.10"
   }
 }
