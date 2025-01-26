@@ -4,14 +4,10 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip";
+} from "@kui/components/ui/tooltip";
+import { ITextTruncateProps } from "@kui/typings/textTruncate.typings";
 
-export interface ITextTruncateProps {
-  className?: string;
-  align?: string;
-  text: string;
-  limit?: number;
-}
+
 
 export default function TextTruncate({
   className = "",
