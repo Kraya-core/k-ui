@@ -2,7 +2,11 @@ import { Button } from "@/components/ui/button";
 import { IAsyncButtonProps } from "@/typings/ui-kit/buttons/asyncButton.typings";
 import React, { useState } from "react";
 
-function AsyncButton({ onClick, children, ...props }: IAsyncButtonProps) {
+export function AsyncButton({
+  onClick,
+  children,
+  ...props
+}: IAsyncButtonProps) {
   const [loading, setLoading] = useState(false);
   const handleClick = async () => {
     try {
@@ -20,5 +24,3 @@ function AsyncButton({ onClick, children, ...props }: IAsyncButtonProps) {
     </Button>
   );
 }
-
-export default AsyncButton;
