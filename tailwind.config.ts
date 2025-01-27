@@ -42,7 +42,45 @@ module.exports = {
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
-  			}
+  			},
+
+			//background//
+			'color-backgroundPrimary': 'var(--color-backgroundPrimary)',
+			'color-backgroundSecondary': 'var(--color-backgroundSecondary)',
+			'color-backgroundSuccess': 'var(--color-backgroundSuccess)',
+			'color-backgroundError': 'var(--color-backgroundError)',
+			'color-backgroundWarning': 'var(--color-backgroundWarning)',
+			'color-backgroundInfo': 'var(--color-backgroundInfo)',
+
+			//accent//
+			'color-accentPrimary': 'var(--color-accentPrimary)',
+			'color-accentSecondary': 'var(--color-accentSecondary)',
+			'color-accentSuccess': 'var(--color-accentSuccess)',
+			'color-accentWarning': 'var(--color-accentWarning)',
+			'color-accentError': 'var(--color-accentError)',
+			'color-accentInfo': 'var(--color-accentInfo)',
+
+			//text//
+			'color-textPrimary': 'var(--color-textPrimary)',
+			'color-textSecondary': 'var(--color-textSecondary)',
+			'color-textTertiary': 'var(--color-textTertiary)',
+			'color-textDisabled': 'var(--color-textdisabled)',
+			'color-textAutoFilled': 'var(--color-textAutoFilled)',
+
+			//border//
+			'color-borderPrimary': 'var(--color-borderPrimary)',
+			'color-borderSecondary': 'var(--color-borderSecondary)',
+
+			//chart//
+			'color-chartBackground': 'var(--color-chartBackground)',
+			'color-chartAxisPrimary': 'var(--color-chartAxisPrimary)',
+			'color-chartAxisLabel': 'var(--color-chartAxisLabel)',
+			'color-chartAxisGrid': 'var(--color-chartAxisGrid)',
+
+			//lowestrank for rfq quotes//
+			'color-lowestQuotePrimary': 'var(--color-lowestQuotePrimary)',
+			'color-lowestQuoteSecondary': 'var(--color-lowestQuoteSecondary)',
+			'color-lowestQuoteTertiary': 'var(--color-lowestQuoteTertiary)',
   		},
   		borderRadius: {
   			lg: '`var(--radius)`',

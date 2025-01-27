@@ -15,7 +15,7 @@ function AsyncButton({ onClick, children, ...props }: IAsyncButtonProps) {
   };
 
   return (
-    <Button onClick={handleClick} loading={loading} {...props}>
+    <Button onClick={handleClick} {...props}>
       {children}
     </Button>
   );
