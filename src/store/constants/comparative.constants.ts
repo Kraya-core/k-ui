@@ -1,0 +1,2 @@
+export const COMPARISION_META_COLUMNS_LENGTH = 6;
+export const QUOTE_COLUMNS_LENGTH = 6;

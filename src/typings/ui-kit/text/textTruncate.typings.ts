@@ -3,5 +3,4 @@ export interface ITextTruncateProps {
   align?: string;
   text: string;
   limit?: number;
-  loader?: boolean;
 }
