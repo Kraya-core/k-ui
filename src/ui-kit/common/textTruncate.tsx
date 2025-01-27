@@ -1,13 +1,13 @@
 import React from "react";
+import { ITextTruncateProps } from "@/typings/ui-kit/text/textTruncate.typings";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { ITextTruncateProps } from "@/typings/textTruncate.typings";
 
-export default function TextTruncate({
+function TextTruncate({
   className = "",
   align = "left",
   text = "",
@@ -26,3 +26,5 @@ export default function TextTruncate({
     <span className={className}>{text}</span>
   );
 }
+
+export default TextTruncate;
