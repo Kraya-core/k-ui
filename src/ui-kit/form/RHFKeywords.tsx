@@ -16,7 +16,7 @@ import {
 } from "@/components/wrapper/FormSchemaProvider";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-// import useToasts from "@/hooks/useToast";
+// import useToasts from "@/hooks/use-toast";
 
 function RHFKeywords({
   name,

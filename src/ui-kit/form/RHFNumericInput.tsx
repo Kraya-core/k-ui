@@ -10,7 +10,7 @@ import {
 import { useFormContext } from "react-hook-form";
 import { Input } from "@/components/ui/input";
 import { IRHFInput } from "@/typings/ui-kit/forms/form.typings";
-// import useToasts from "@/hooks/useToast";
+// import useToasts from "@/hooks/use-toast";
 import { useFormSchema } from "@/components/wrapper/FormSchemaProvider";
 
 export const NUMBER_REGEX = /^[0-9.-]+$/;

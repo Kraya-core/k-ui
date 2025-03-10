@@ -83,10 +83,6 @@ function RHFMultiSelect<T = unknown>({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [schema]);
 
-  // const selectedOpts = [
-
-  // ];
-
   const { ref, inView } = useInView({
     root: parentRef.current,
   });
