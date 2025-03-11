@@ -1,10 +1,3 @@
-import React from "react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { z } from "zod";
 import { RHFForm, RHFInput, RHFPasswordInput } from "@/ui-kit";
 import { Button } from "@/components/ui/button";
@@ -25,7 +18,7 @@ function App() {
   };
 
   return (
-    <div className="p-5">
+    <div className="p-5 bg-red-400">
       <h1 className="p-5 text-[7rem] bg-light-bg">Hello 2</h1>
       <div>
         <RHFForm
