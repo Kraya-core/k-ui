@@ -31,8 +31,8 @@ function RHFNumericInput<IValues>({
   const isRequired = useMemo(() => {
     if (!schema) return false;
     return !(
-      (schema._def as any)?.shape()?.[name]?.safeParse(undefined)?.success ||
-      (schema._def as any)?.shape()?.[name]?.safeParse(null)?.success
+      (schema._def as any)?.shape?.()?.[name]?.safeParse(undefined)?.success ||
+      (schema._def as any)?.shape?.()?.[name]?.safeParse(null)?.success
     );
   }, [schema]);
 
