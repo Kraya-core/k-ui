@@ -22,6 +22,41 @@
     --destructive-foreground: 210 40% 98%;
     --ring: 215 20.2% 65.1%;
     --radius: 0.5rem;
+
+    /* Color Palette */
+    --color-backgroundPrimary: #f6fbfb;
+    --color-backgroundSecondary: #dee7ed;
+    --color-backgroundSuccess: #cff1e6;
+    --color-backgroundError: #fee2e2;
+    --color-backgroundWarning: #fdf7e6;
+    --color-backgroundInfo: #d8e6fd;
+
+
+    --color-accentPrimary: #003c66;
+    --color-accentSecondary: #99d6ff;
+    --color-accentSuccess: #10b981b3;
+    --color-accentWarning: #eab208b3; 
+    --color-accentError: #ef4444b3;
+    --color-accentInfo: #3b82f6b3;
+
+    --color-textPrimary: #1a2b38; 
+    --color-textSecondary: #6d8598;
+    --color-textTertiary: #c3d3df;
+    --color-textdisabled: #d3dce2;
+    --color-textAutoFilled: #9aa9b5;
+
+    --color-borderPrimary: #e0e6ea;
+    --color-borderSecondary: #eef2f4;
+
+    --color-chartBackground: #fff;
+    --color-chartAxisPrimary: #dfe1e4; 
+    --color-chartAxisLabel: #64748b;
+    --color-chartAxisGrid: #e0e0e0;
+
+    --color-lowestQuotePrimary: #f0fdf4;
+    --color-lowestQuoteSecondary: #fefce8;
+    --color-lowestQuoteTertiary: #fff1f2;
+
   }
 
   .dark {
@@ -44,14 +79,97 @@
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
     --ring: 216 34% 17%;
+
+
+    --color-backgroundPrimary: #121212;
+    --color-backgroundSecondary: #1c1c1c;
+    --color-backgroundTertiary: #262626;
+    --color-backgroundSuccess: #80E0A7; 
+    --color-backgroundError: #E57373;
+    --color-backgroundWarning: #F8D84D;
+    --color-backgroundInfo: #64B5F6; 
+  
+    --color-accentPrimary: #1a3d63;
+    --color-accentSecondary: #7ab8d8;
+    --color-accentSuccess: #34c759; 
+    --color-accentWarning: #f8a21b; 
+    --color-accentError: #e11d48; 
+    --color-accentInfo: #4f91f1;
+  
+    --color-textPrimary: #e5e5e5;; 
+    --color-textSecondary: #b0b0ba;
+    --color-textTertiary:  #b8c1c8;
+    --color-textdisabled:  #6c757d;
+    --color-textAutoFilled:  #adb5bd;
+  
+    --color-borderPrimary: #313131; 
+    --color-borderSecondary: #444444;
+  
+    --color-chartBackground: #1c1c1c;
+    --color-chartAxisLabel: #a1a1aa;
+    --color-chartAxisGrid: #555555;
+    
+    --color-lowestQuotePrimary: #A8E8A5; 
+    --color-lowestQuoteSecondary: #D6B94B; 
+    --color-lowestQuoteTertiary: #F1D0D6; 
   }
+
+
+  .text-heading{
+    font-size: 1.2rem;
+    color: var(--color-textPrimary);
+    font-weight: 600;
+  }
+
+  .text-subHeading{
+    font-size: 0.85rem;
+    color: var(--color-textPrimary);
+    font-weight: 600;
+  }
+
+  .text-bodyPrimary{
+    font-size: 0.75rem;
+    color:var(--color-textPrimary);
+    font-weight: 500;
+  }
+
+  .text-bodySecondary{
+    font-size: 0.7rem;
+    color:var(--color-textPrimary);
+    font-weight: 500;
+  }
+
+  .text-bodyTertiary{
+    font-size: 0.65rem;
+    color:var(--color-textPrimary);
+    font-weight: 500;
+  }
+
+  @media(min-width: 768px){
+    .text-heading{
+      font-size: 1.3rem;    
+    }
+  }
+
+
+  @media (min-width: 1920px) {
+   .text-subHeading{
+      font-size: 0.9rem;
+    }
+  
+    .text-bodyPrimary{
+      font-size: 0.85rem;    
+    }
+  
+    .text-bodySecondary{
+      font-size: 0.8rem;
+    }
+  
+    .text-bodyTertiary{
+      font-size: 0.75rem;
+    }
+  }
+
 }
 
-@layer base {
-  /* * {
-    @apply border-border;
-  } */
-  /* body {
-    @apply font-sans antialiased bg-background text-foreground;
-  } */
-}
+
